@@ -1,0 +1,20 @@
+- [ ] - FRONT END
+    - / - home
+    - /movies - list of all movies in our db
+    - /movies/:id - link to single movie in db
+    - /genres - List of all genres in db
+- [ ] - BACKEND
+    - Movies
+      - Name
+      - Runtime
+    - Genres
+      - Name
+
+- path to get there:
+  - dont need to use create-react-app, this is a starting point with necessary files
+  - cors: a library that handles cost/origin/resource/something - when you make a req to a website that isnt yours, allows axios to do stuff it wouldnt be (but we wont make use of it)
+- create db folder with db.js & index.js
+  - in db file, connect to db
+  - create db in psql with command 'createdb movie_db'
+  - in index.js, pull in db
+  - create tables/models in db folder
